@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+{% assign date = '2025-08-21T10:20:00Z' %}
 
 <div class="home-intro">
   <h1>{{ site.title }}</h1>
