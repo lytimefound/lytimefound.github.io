@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+    <style>
+      body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:#111; margin:0; padding:0; line-height:1.6; }
+      .post-header { background:#0b0b0b; color:#fff; padding:2rem 1rem; }
+      .post-header .container { max-width:900px; margin:0 auto; }
+      .post-title { margin:0; font-size:2rem; }
+      .post-meta { margin:0.5rem 0 0; color:#ddd; font-size:0.9rem; }
+      main.container { max-width:900px; margin:2rem auto; padding:0 1rem; }
+      .post-content { margin:2rem 0; }
+      .back-link { color:#0066cc; text-decoration:none; }
+      footer.site-footer { max-width:900px; margin:2rem auto; padding:1rem; color:#666; font-size:0.9rem; }
+      @media (prefers-color-scheme: dark) {
+        body { background:#0b0b0b; color:#ddd; }
+        .post-header { background:#050505 }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="post-header">
+      <div class="container">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.categories and page.categories != empty %} • {{ page.categories | array_to_sentence_string }}{% endif %}</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="post-content">
+        {{ content }}
+      </article>
+      <p><a class="back-link" href="{{ '/' | relative_url }}">&larr; Back to Home</a></p>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    </footer>
+  </body>
+</html>
