@@ -7,8 +7,8 @@ main_nav: true
 
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
 
-I'm full stack programmer for 20 years, now I like coding with AI.
-This page is a good place to show write code use AI.
+I'm a full-stack programmer with 20 years of experience. Now, I enjoy coding with AI.
+This page is a good place to showcase how to write code using AI.
 
 
 [github]: https://github.com/lytimefound/
