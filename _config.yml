@@ -59,9 +59,6 @@ descriptions:
 
   - cat: dumy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
-
-  - cat: Blog
-    desc: "Post blog."
 # Social icons and sharing options
 #
 # Social settings are used in two places:
@@ -80,28 +77,28 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
+    username: leon
     url: https://twitter.com/lytimefound
     desc: Follow me on Twitter
     share: true
 
   - name: Facebook
     icon: facebook
-    username: thebencentra
+    username: leon
     url: ""
     desc: Friend me on Facebook
     share: true
 
   - name: GitHub
     icon: github
-    username: bencentra
+    username: leonli
     url: https://github.com/lytimefound
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
+    username: Leon Li
     url: https://www.linkedin.com/pub/
     desc: Connect with me on LinkedIn
     share: true
