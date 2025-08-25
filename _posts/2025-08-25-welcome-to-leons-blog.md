@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Post"
-date:   2025-08-25T14:25:52-05:00
+date:   2025-08-24T14:25:52-05:00
 author: Leon
 categories: Blog
 ---
